@@ -11,7 +11,9 @@ class ViewController: UIViewController {
         countDownLabel.text = "获取验证码"
         countDownLabel.backgroundColor = .gray
         countDownLabel.isUserInteractionEnabled = true
+//        方法一
 //        countDownLabel.font = UIFont(name: "Helvetica", size: 26)
+//        方法二
         countDownLabel.font = UIFont.monospacedDigitSystemFont(ofSize: 26, weight: .regular)
 
         let tap = UITapGestureRecognizer(target: self, action: #selector(startTimer))
